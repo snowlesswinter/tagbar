@@ -474,13 +474,10 @@ function! tagbar#types#ctags#init(supported_types) abort
     \ ]
     let type_python.sro        = '.'
     let type_python.kind2scope = {
-        \ 'c' : 'class',
-        \ 'f' : 'function',
-        \ 'm' : 'function'
+        \ 'c' : 'class'
     \ }
     let type_python.scope2kind = {
-        \ 'class'    : 'c',
-        \ 'function' : 'f'
+        \ 'class'    : 'c'
     \ }
     let types.python = type_python
     let types.pyrex  = type_python

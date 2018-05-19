@@ -729,13 +729,10 @@ function! tagbar#types#uctags#init(supported_types) abort
     \ ]
     let type_python.sro        = '.'
     let type_python.kind2scope = {
-        \ 'c' : 'class',
-        \ 'f' : 'function',
-        \ 'm' : 'function'
+        \ 'c' : 'class'
     \ }
     let type_python.scope2kind = {
-        \ 'class'    : 'c',
-        \ 'function' : 'f'
+        \ 'class'    : 'c'
     \ }
     let type_python.kind2scope.m = 'member'
     let type_python.scope2kind.member = 'm'
